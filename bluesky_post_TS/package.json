@@ -1,0 +1,44 @@
+{
+	"name": "christmas-countdown-social-bot",
+	"version": "1.0.0",
+	"description": "Chrsitmas Countdown Social Bot",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "tsc && node dist/index.js",
+		"build": "tsc"
+	},
+	"keywords": [
+		"Bluesky",
+		"bot",
+		"Christmas",
+		"countdown"
+	],
+	"contributors": [
+		{
+			"name": "Yummy_Bacon5",
+			"url": "https://github.com/YummyBacon5"
+		},
+		{
+			"name": "Zoobdude",
+			"url": "https://github.com/Zoobdude"
+		}
+	],
+	"license": "Unlicense",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/likes-gay/christmas-countdown-social-bot.git"
+	},
+	"devDependencies": {
+		"@types/node": "^20.9.0",
+		"@typescript-eslint/eslint-plugin": "^6.18.1",
+		"@typescript-eslint/parser": "^6.18.1",
+		"eslint": "^8.56.0",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@actions/core": "^1.10.1",
+		"dotenv": "^16.3.1",
+		"exifreader": "^4.23.3"
+	}
+}
